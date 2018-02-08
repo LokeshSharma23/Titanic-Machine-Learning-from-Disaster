@@ -53,5 +53,49 @@ Models used for Classification:
 2. Support Vector Classifier
 3. Logistics Regression
 
-Results:
+
+Random Forest Results:
+
+Classification Report:
+             precision    recall  f1-score   support
+
+          0       0.77      0.86      0.81       154
+          1       0.77      0.65      0.70       114
+
+avg / total       0.77      0.77      0.77       268
+
+Confusion Matrix:
+[[132  22]
+ [ 40  74]]
+ 
+ 
+Logistics Regression Results:
+
+Classification Report:
+             precision    recall  f1-score   support
+
+          0       0.78      0.90      0.83       154
+          1       0.82      0.65      0.73       114
+
+avg / total       0.80      0.79      0.79       268
+Confusion Matrix:
+[[138  16]
+ [ 40  74]]
+ 
+ 
+Support Vector Classifier Results:
+
+Classification Report:
+             precision    recall  f1-score   support
+
+          0       0.78      0.90      0.83       154
+          1       0.82      0.65      0.73       114
+
+avg / total       0.80      0.79      0.79       268
+Confusion Matrix:
+[[138  16]
+ [ 40  74]]
+ 
+ 
+Conclusion:
 Both Logistic Regression and Support Vector Classifier performed equally well and better than Random Forest on the given data set. 
